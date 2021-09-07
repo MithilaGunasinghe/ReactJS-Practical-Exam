@@ -1,0 +1,50 @@
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 16px;
+
+  .image-wrapper {
+    margin-bottom: 12px;
+    position: relative;
+    img {
+      max-height: 300px;
+    }
+    span {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 6px;
+      font-size: 12px;
+      background-color: black;
+      color: white;
+    }
+  }
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 14px;
+    flex: 1;
+  }
+  .price {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .sub-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: darkgray;
+    margin-bottom: 16px;
+  }
+  .button-wrapper {
+    width: 100%;
+    button {
+      width: 100%;
+      background-color: black;
+      border-radius: 0;
+      border: unset;
+      padding: 16px;
+      font-size: 22px;
+    }
+  }
+}
